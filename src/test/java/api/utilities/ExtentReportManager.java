@@ -65,8 +65,8 @@ public class ExtentReportManager implements ITestListener {
         test.createNode(result.getName());
         test.assignCategory(result.getMethod().getGroups());
         ExtentTest test = extentTest.get();
-        test.log(Status.FAIL, "Test Failed");
-        test.log(Status.FAIL, result.getThrowable().getMessage());
+        test.log(Status.FAIL, "Test Failed: " + result.getName());
+        test.log(Status.FAIL, "Error: " + result.getThrowable().getMessage());
     }
 
     @Override

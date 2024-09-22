@@ -15,7 +15,7 @@ public class DataProviders {
 
         String[][] apiData = new String[rowNum][colCount];
 
-        for (int i = 1; i < rowNum; i++) {
+        for (int i = 0; i < rowNum; i++) {
             for (int j = 0; j < colCount; j++) {
                 apiData[i][j] = xlUtility.readCellData("Sheet1", i, j);
             }
@@ -29,9 +29,9 @@ public class DataProviders {
         String path = System.getProperty("user.dir") + "//TestData//userTest.xlsx";
         XLUtility xlUtility = new XLUtility(path);
         int rowNum = xlUtility.getRowCount("Sheet1");
-      String apidata[] = new String[rowNum];
-        for (int i = 1; i <= rowNum; i++) {
-            apidata[i - 1] = xlUtility.readCellData("Sheet1", i, 0);
+      String[] apidata = new String[rowNum];
+        for (int i = 0; i < rowNum; i++) {
+            apidata[i] = xlUtility.readCellData("Sheet1", i, 0);
         }
        return apidata;
     }

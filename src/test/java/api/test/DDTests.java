@@ -25,6 +25,7 @@ public class DDTests {
         Response response = UserEndPoints.createUser(userPayload);
         response.then().log().all();
         Assert.assertEquals(response.getStatusCode(), 200);
+        
 
     }
 
@@ -44,7 +45,7 @@ public class DDTests {
         // Then, attempt to delete the user
         Response deleteResponse = UserEndPoints.deleteUser(userName);
         deleteResponse.then().log().all();
-        Assert.assertEquals(deleteResponse.getStatusCode(), 200);
+        Assert.assertEquals(deleteResponse.getStatusCode(), 200, "Expected status for deletion");
     }
 
 }

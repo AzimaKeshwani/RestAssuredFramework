@@ -4,29 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="400d49de-54d2-4796-9ad0-37805e0ee2fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/userTest.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/userTest.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/+repName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/Routes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/UserEndPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payloads/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/DDTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UserTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/utilities/DataProviders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/utilities/ExtentReportManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/utilities/XLUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/routes.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="400d49de-54d2-4796-9ad0-37805e0ee2fe" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/userTest.xls" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/userTest.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/test/DDTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/test/DDTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/utilities/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/utilities/DataProviders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/utilities/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/utilities/ExtentReportManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,40 +37,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.RestAssuredBDDFramework [clean,test...].executor": "Run",
-    "Maven.RestAssuredBDDFramework [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.C:/Users/azima/RestAssuredBDDFramework/src/test/java/api/test/testng.xml.executor": "Run",
-    "TestNG.DDTests.executor": "Run",
-    "TestNG.DDTests.testDeleteUserByName.executor": "Run",
-    "TestNG.DDTests.testGetUserByName.executor": "Run",
-    "TestNG.DDTests.testPostUser.executor": "Run",
-    "TestNG.GetCallBDD.test_numberOfCircuitsFor2017_Season.executor": "Run",
-    "TestNG.UserTests.executor": "Run",
-    "TestNG.UserTests.testGetUserByName.executor": "Run",
-    "TestNG.UserTests.testPostUser.executor": "Run",
-    "TestNG.api.test.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/azima/RestAssuredBDDFramework",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.RestAssuredBDDFramework [clean,test...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.RestAssuredBDDFramework [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/azima/RestAssuredBDDFramework/src/test/java/api/test/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DDTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DDTests.testDeleteUserByName.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DDTests.testGetUserByName.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DDTests.testPostUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GetCallBDD.test_numberOfCircuitsFor2017_Season.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.UserTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.UserTests.testGetUserByName.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.UserTests.testPostUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.api.test.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/azima/RestAssuredBDDFramework&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\azima\RestAssuredBDDFramework\TestData" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UserTests">
+  <component name="RunManager" selected="TestNG.DDTests">
     <configuration name="C:/Users/azima/RestAssuredBDDFramework/src/test/java/api/test/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredBDDFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/api/test/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DDTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredBDDFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.DDTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -147,29 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="api.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredBDDFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api.test" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DDTests" />
         <item itemvalue="TestNG.UserTests" />
         <item itemvalue="TestNG.UserTests.testGetUserByName" />
         <item itemvalue="TestNG.UserTests.testPostUser" />
         <item itemvalue="TestNG.C:/Users/azima/RestAssuredBDDFramework/src/test/java/api/test/testng.xml" />
-        <item itemvalue="TestNG.api.test" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +166,23 @@
       <option name="presentableId" value="Default" />
       <updated>1725319856594</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1726999718347</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726999718347</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1727000073474</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727000073474</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,5 +198,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
