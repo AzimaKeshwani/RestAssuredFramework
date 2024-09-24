@@ -82,7 +82,7 @@ public class ExtentReportManager implements ITestListener {
     @Override
     public void onFinish(ITestContext context) {
         System.out.println("Test suite finished: " + context.getName());
-        extentReports.flush(); //to generate report
+        extentReports.flush(); //It will not generate report without this method
     }
 }
 
