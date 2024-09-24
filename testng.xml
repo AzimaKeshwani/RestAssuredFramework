@@ -9,7 +9,7 @@
     <test verbose="2" preserve-order="true"
           name="C:/Users/azima/RestAssuredBDDFramework/src/test/java/api/test/UserTests.java">
         <classes>
-            <class name="api.test.UserTests">
+            <class name="api.test.UserTestsProp">
                 <methods>
                     <include name="testPostUser"/>
                     <include name="testGetUserByName"/>

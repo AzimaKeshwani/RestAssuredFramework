@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="400d49de-54d2-4796-9ad0-37805e0ee2fe" name="Changes" comment="correction">
-      <change afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="400d49de-54d2-4796-9ad0-37805e0ee2fe" name="Changes" comment="Log4J">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/UserEndPointsProp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UserTestsProp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/+repName.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/+repName.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/test/UserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/test/UserTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/utilities/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/utilities/ExtentReportManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/routes.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/routes.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +58,7 @@
     "TestNG.UserTests.executor": "Run",
     "TestNG.UserTests.testGetUserByName.executor": "Run",
     "TestNG.UserTests.testPostUser.executor": "Run",
+    "TestNG.UserTestsProp.executor": "Run",
     "TestNG.api.test.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -69,8 +70,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\azima\RestAssuredBDDFramework\TestData" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="api.test" />
+      <recent name="api.endpoints" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.UserTests">
+  <component name="RunManager" selected="TestNG.UserTestsProp">
     <configuration name="C:/Users/azima/RestAssuredBDDFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredBDDFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -115,6 +120,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserTestsProp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredBDDFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.UserTestsProp" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserTests.testGetUserByName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredBDDFramework" />
       <extension name="coverage">
@@ -133,31 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTests.testPostUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredBDDFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api.test" />
-      <option name="MAIN_CLASS_NAME" value="api.test.UserTests" />
-      <option name="METHOD_NAME" value="testPostUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UserTests" />
+        <item itemvalue="TestNG.UserTestsProp" />
         <item itemvalue="TestNG.C:/Users/azima/RestAssuredBDDFramework/testng.xml" />
+        <item itemvalue="TestNG.UserTests" />
         <item itemvalue="TestNG.DDTests" />
         <item itemvalue="TestNG.UserTests.testGetUserByName" />
-        <item itemvalue="TestNG.UserTests.testPostUser" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727001498106</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Log4J">
+      <option name="closed" value="true" />
+      <created>1727173738840</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727173738840</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +224,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update" />
     <MESSAGE value="correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction" />
+    <MESSAGE value="Log4J" />
+    <option name="LAST_COMMIT_MESSAGE" value="Log4J" />
   </component>
 </project>
